@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "simple_history.middleware.HistoryRequestMiddleware",
 ]
 
-ROOT_URLCONF = 'ecommerce_rest.urls'
+ROOT_URLCONF = 'api_rest_ecommerce.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ecommerce_rest.wsgi.application'
+WSGI_APPLICATION = 'api_rest_ecommerce.wsgi.application'
 
 
 
